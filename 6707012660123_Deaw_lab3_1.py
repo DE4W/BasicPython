@@ -1,6 +1,4 @@
-for count in range(101): #count number from 0 to 101
-    if(count == 101): #stop counting at 100
-        break
+for count in range(101): #count number from 0 to 100 (range=(n-1))
     if(count == 0):
         continue #bypass 0 and start counting at 1
     if(count %2 == 0):
